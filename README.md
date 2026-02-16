@@ -230,3 +230,34 @@ python3 dotplot_copy1_vs_copy2.py
 
 ## 9) Bottom line
 All three HBZ-region copies show strong coding potential with consistent eukaryotic multi-exon gene models. The most stable conclusion from this analysis is a shared spliced coding architecture across copies, with `copy1` encoding a longer predicted protein variant than `copy2/3`.
+
+## 10) Start-codon / initiation plausibility follow-up
+To address whether AUGUSTUS starts are biologically plausible for initiation, an exon-aware start assessment was added.
+
+New files:
+
+- `start_site_assessment.py`
+- `start_site_assessment.tsv`
+- `start_site_assessment_summary.txt`
+- `start_site_assessment.png`
+- `start_site_assessment.svg`
+- `copy*.augustus.sampled.gff3` (AUGUSTUS sampling runs)
+
+What this follow-up checks:
+
+1. AUGUSTUS sampled transcript score (`--alternatives-from-sampling=true --sample=200`)
+2. Kozak core score at AUGUSTUS start (`-3 in {A,G}` and `+4 == G`)
+3. Alternative ATGs restricted to **predicted CDS exons** (mRNA-feasible starts)
+4. Nearby ATGs annotated as exon/intron/other to avoid intron false leads
+5. Upstream promoter proxies (GC%, CpG observed/expected, TATAAA count)
+
+Key result:
+
+- `copy2/3` have apparently stronger nearby ATGs in genomic DNA (e.g., around position 331), but those fall in **predicted introns**, so they are not start codons in the mature spliced transcript.
+- Exon-contained ATG options in `copy2/3` collapse to the AUGUSTUS start at 228.
+- AUGUSTUS still returns the same single model in sampling mode (`~0.89-0.905` score range), indicating internal model stability despite weak Kozak context.
+
+Interpretation:
+
+- Current sequence-only evidence supports a stable **gene model** and a feasible coding start under that model.
+- Sequence-only evidence does **not** prove real transcription start site usage; expression/TSS assays are required for that.

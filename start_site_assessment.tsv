@@ -1,0 +1,4 @@
+copy	augustus_start	augustus_start_kozak_score_0to2	augustus_-3	augustus_+4	augustus_sampled_tx_score	n_cds_exons	cds_exons	introns	best_exon_atg	all_exon_atgs	nearby_atgs_w_location	upstream_len	upstream_gc_pct	upstream_cpg_oe	upstream_tataaa_hits
+copy1	267	1	G	T	0.92	3	267-361,1250-1454,1699-1827	362-1249,1455-1698	267(score=1)	267(score=1,-3=G,+4=T);306(score=0,-3=T,+4=T)	267(CDS_exon,score=1);150(other,score=1);306(CDS_exon,score=0)	266	63.53	0.039	0
+copy2	228	0	T	T	0.89	3	228-283,1550-1754,1945-2073	284-1549,1755-1944	228(score=0)	228(score=0,-3=T,+4=T)	189(other,score=1);295(intron,score=1);331(intron,score=1);228(CDS_exon,score=0)	227	62.11	0.096	0
+copy3	228	0	T	T	0.905	3	228-283,1536-1740,2011-2139	284-1535,1741-2010	228(score=0)	228(score=0,-3=T,+4=T)	189(other,score=1);295(intron,score=1);331(intron,score=1);228(CDS_exon,score=0)	227	62.11	0.096	0
