@@ -1,0 +1,7 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2176;seqhdr="copy2::h1tg000121l:145000-175000:12466-14642(+)"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="31|Natrialba_magadii_ATCC_43099|A|61.4|11|0";gc_cont=61.40;transl_table=11;uses_sd=0
+copy2::h1tg000121l:145000-175000:12466-14642(+)	Prodigal_v2.6.3	CDS	1	150	1.1	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.620;conf=56.19;score=1.08;cscore=-2.14;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+copy2::h1tg000121l:145000-175000:12466-14642(+)	Prodigal_v2.6.3	CDS	206	979	7.1	-	0	ID=1_2;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.649;conf=81.45;score=6.44;cscore=8.01;sscore=-1.57;rscore=0.00;uscore=4.26;tscore=-5.18;
+copy2::h1tg000121l:145000-175000:12466-14642(+)	Prodigal_v2.6.3	CDS	1177	1374	4.8	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.702;conf=74.98;score=4.77;cscore=-0.10;sscore=4.87;rscore=0.00;uscore=1.56;tscore=3.81;
+copy2::h1tg000121l:145000-175000:12466-14642(+)	Prodigal_v2.6.3	CDS	1371	2141	3.9	-	0	ID=1_4;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.772;conf=70.92;score=3.88;cscore=8.24;sscore=-4.36;rscore=0.00;uscore=0.81;tscore=-5.18;

@@ -1,0 +1,4 @@
+file	len	best_unspliced_fwd	best_unspliced_rev	best_spliced_fwd	best_spliced_rev
+copy1.fa	1930	start=1155, end=1925, frame=2, aa=257	start=1591, end=1836, frame=0, aa=82	strand=+, aa=257, genomic=1155-1925, spliced=1155-1925, introns=none	strand=-, aa=156, genomic=547-1056, spliced=547-1014, introns=633-674
+copy2.fa	2176	start=1455, end=2171, frame=2, aa=239	start=1368, end=1886, frame=2, aa=173	strand=+, aa=239, genomic=1455-2171, spliced=1455-2171, introns=none	strand=-, aa=173, genomic=1368-1886, spliced=1368-1886, introns=none
+copy3.fa	2182	start=1441, end=2139, frame=0, aa=233	start=1388, end=1966, frame=1, aa=193	strand=+, aa=233, genomic=1441-2139, spliced=1441-2139, introns=none	strand=-, aa=193, genomic=1388-1966, spliced=1388-1966, introns=none

@@ -1,0 +1,4 @@
+file	strand	gene_start	gene_end	introns	spliced_cds_nt	orf_status	aa_len	protein_prefix
+copy1.augustus.gff3	+	267	1827	362-1249,1455-1698	429	starts_ATG;ends_STOP;no_internal_stop	142	MSLTKTERTIIVSMWAKISTQADTI
+copy2.augustus.gff3	+	228	2073	284-1549,1755-1944	390	starts_ATG;ends_STOP;no_internal_stop	129	MWAKISTQADTIGTETLERLFLSHP
+copy3.augustus.gff3	+	228	2139	284-1535,1741-2010	390	starts_ATG;ends_STOP;no_internal_stop	129	MWAKISTQADTIGTETLERLFLSHP

@@ -1,0 +1,6 @@
+##gff-version 3
+##sequence-region copy1::h1tg000121l:145000-175000:1705-3635(+) 1 1930
+copy1::h1tg000121l:145000-175000:1705-3635(+)	GlimmerHMM	mRNA	267	1827	.	+	.	ID=copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1;Name=copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1
+copy1::h1tg000121l:145000-175000:1705-3635(+)	GlimmerHMM	CDS	267	361	.	+	0	ID=copy1::h1tg000121l:145000-175000:1705-3635(+).cds1.1;Parent=copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1;Name=copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1;Note=initial-exon
+copy1::h1tg000121l:145000-175000:1705-3635(+)	GlimmerHMM	CDS	1250	1454	.	+	1	ID=copy1::h1tg000121l:145000-175000:1705-3635(+).cds1.2;Parent=copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1;Name=copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1;Note=internal-exon
+copy1::h1tg000121l:145000-175000:1705-3635(+)	GlimmerHMM	CDS	1699	1827	.	+	0	ID=copy1::h1tg000121l:145000-175000:1705-3635(+).cds1.3;Parent=copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1;Name=copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1;Note=final-exon

@@ -1,0 +1,4 @@
+sample	seq_len	strand	gene_start	gene_end	cds_exons	introns	cds_nt	protein_aa
+copy1	1930	+	267	1827	3	2	429	142
+copy2	2176	+	228	2073	3	2	390	129
+copy3	2182	+	228	2139	3	2	390	129

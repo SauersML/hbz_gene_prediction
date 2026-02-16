@@ -1,0 +1,1 @@
+len(copy1)=1930\nlen(copy2)=2176\nk=15, max_occ=80\nforward_hits=2126\nreverse_hits=0\ntop_forward_offset_bins(nt):\n  offset~300: 896 hits\n  offset~245: 338 hits\n  offset~-80: 296 hits\n  offset~280: 63 hits\n  offset~285: 42 hits\n

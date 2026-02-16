@@ -1,0 +1,14 @@
+copy	predictor	model_id	strand	start	end	cds_exons	introns	cds_nt	protein_aa_est
+copy1	AUGUSTUS	g1.t1	+	267	1827	3	2	429	142
+copy2	AUGUSTUS	g1.t1	+	228	2073	3	2	390	129
+copy3	AUGUSTUS	g1.t1	+	228	2139	3	2	390	129
+copy1	GlimmerHMM	copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1	+	267	1827	3	2	429	142
+copy2	GlimmerHMM	copy2::h1tg000121l:145000-175000:12466-14642(+).path1.gene1	+	228	2073	3	2	390	129
+copy3	GlimmerHMM	copy3::h1tg000121l:145000-175000:22484-24666(+).path1.gene1	+	228	2139	3	2	390	129
+copy1	Prodigal	1_1	+	47	286	1	0	240	79
+copy1	Prodigal	1_2	+	933	1925	1	0	993	330
+copy2	Prodigal	1_1	+	1	150	1	0	150	49
+copy2	Prodigal	1_2	-	206	979	1	0	774	257
+copy2	Prodigal	1_3	+	1177	1374	1	0	198	65
+copy2	Prodigal	1_4	-	1371	2141	1	0	771	256
+copy3	Prodigal	1_1	+	1441	2139	1	0	699	232
