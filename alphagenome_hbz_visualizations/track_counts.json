@@ -1,0 +1,11 @@
+{
+  "rna_tracks": 6,
+  "cage_tracks": 2,
+  "splice_sites_tracks": 4,
+  "splice_site_usage_tracks": 6,
+  "splice_junctions_tracks": 3,
+  "dnase_tracks": 1,
+  "atac_tracks": 1,
+  "chip_histone_tracks": 6,
+  "chip_tf_tracks": 3
+}

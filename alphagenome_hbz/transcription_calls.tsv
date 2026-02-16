@@ -1,0 +1,4 @@
+window	rna_seq	cage	procap	verdict
+copy1_region	False	True	False	weak_or_context_dependent_support
+copy2_region	False	False	False	no_clear_support_in_requested_tracks
+copy3_region	False	False	False	no_clear_support_in_requested_tracks

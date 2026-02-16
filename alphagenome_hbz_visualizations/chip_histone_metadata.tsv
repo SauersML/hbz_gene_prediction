@@ -1,0 +1,7 @@
+name	strand	Assay title	ontology_curie	biosample_name	biosample_type	biosample_life_stage	histone_mark	data_source	endedness	genetically_modified	nonzero_mean
+UBERON:0002106 Histone ChIP-seq H3K27ac	.	Histone ChIP-seq	UBERON:0002106	spleen	tissue	adult	H3K27ac	encode	single	False	0.7800244092941284
+UBERON:0002106 Histone ChIP-seq H3K27me3	.	Histone ChIP-seq	UBERON:0002106	spleen	tissue	adult	H3K27me3	encode	single	False	0.8321865200996399
+UBERON:0002106 Histone ChIP-seq H3K36me3	.	Histone ChIP-seq	UBERON:0002106	spleen	tissue	adult	H3K36me3	encode	single	False	0.8215964436531067
+UBERON:0002106 Histone ChIP-seq H3K4me1	.	Histone ChIP-seq	UBERON:0002106	spleen	tissue	adult	H3K4me1	encode	single	False	0.8138890862464905
+UBERON:0002106 Histone ChIP-seq H3K4me3	.	Histone ChIP-seq	UBERON:0002106	spleen	tissue	adult	H3K4me3	encode	single	False	0.7977772951126099
+UBERON:0002106 Histone ChIP-seq H3K9me3	.	Histone ChIP-seq	UBERON:0002106	spleen	tissue	adult	H3K9me3	encode	single	False	0.8140273690223694

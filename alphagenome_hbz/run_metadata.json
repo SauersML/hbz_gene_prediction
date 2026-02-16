@@ -1,0 +1,9 @@
+{
+  "fasta": "/Users/user/Downloads/hbz/HBZ_region_UP005hap1.fasta",
+  "orig_len": 30001,
+  "model_len": 131072,
+  "pad_left": 50535,
+  "ontology_used": [
+    "UBERON:0000178"
+  ]
+}

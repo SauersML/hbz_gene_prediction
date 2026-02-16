@@ -1,0 +1,4 @@
+name	ontology_curie	biosample_name	biosample_type	biosample_life_stage	gtex_tissue	data_source	Assay title
+junction_UBERON:0002106 gtex Spleen polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult	Spleen	gtex	polyA plus RNA-seq
+junction_UBERON:0002106 polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult		encode	polyA plus RNA-seq
+junction_UBERON:0002106 total RNA-seq	UBERON:0002106	spleen	tissue	adult		encode	total RNA-seq

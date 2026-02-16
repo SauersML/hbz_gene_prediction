@@ -261,3 +261,81 @@ Interpretation:
 
 - Current sequence-only evidence supports a stable **gene model** and a feasible coding start under that model.
 - Sequence-only evidence does **not** prove real transcription start site usage; expression/TSS assays are required for that.
+
+## 11) AlphaGenome integration (full HBZ parent region)
+We extended the analysis to AlphaGenome predictions on the full parent sequence:
+
+- `HBZ_region_UP005hap1.fasta` (30,001 bp)
+
+The three copy sequences were mapped as sub-intervals within this parent sequence by exact string match:
+
+- `copy1`: `1706-3635`
+- `copy2`: `12467-14642`
+- `copy3`: `22485-24666`
+
+### 11.1 Added AlphaGenome scripts and outputs
+Primary scripts:
+
+- `run_alphagenome_hbz.py`
+- `alphagenome_ontology_probe.py`
+- `alphagenome_hbz_multi_ontology.py`
+- `alphagenome_visualize_hbz_region.py`
+- `make_gene_models_with_fetal_alphagenome_tracks.py`
+
+Primary output folders:
+
+- `alphagenome_hbz/`
+- `alphagenome_hbz_multi_ontology/`
+- `alphagenome_hbz_visualizations/`
+
+### 11.2 Fetal/embryonic focused final figure
+Current combined figure (gene models + fetal AlphaGenome tracks):
+
+- `hbz_gene_models_with_fetal_alphagenome_tracks.png`
+- `hbz_gene_models_with_fetal_alphagenome_tracks.svg`
+
+Configuration used:
+
+- Ontologies:
+  - `UBERON:0002107` (liver; fetal/embryonic-relevant tracks)
+  - `UBERON:0001987` (placenta; embryonic)
+- Predictors shown in model lanes:
+  - `AUGUSTUS`
+  - `GlimmerHMM`
+- Prodigal model lane removed from final integrated plot.
+
+### 11.3 Axis units and interpretation
+To make units explicit in the figure:
+
+- RNA tracks are labeled as: `RNA-seq (normalized read signal)`
+- CAGE tracks are labeled as: `CAGE (normalized read signal)`
+- RNA and CAGE are plotted on separate y-axes in each ontology row (left = RNA, right = CAGE).
+
+### 11.4 Splice-site probability in 20 bp bins
+We added a splice row to the final fetal plot based on AlphaGenome `SPLICE_SITES` outputs.
+
+Displayed quantity:
+
+- `% chance of at least one splice site in each 20 bp bin`
+
+Computation per bin (using per-base probabilities):
+
+- `P(any splice in bin) = 1 - Π_i(1 - p_i)`
+
+Exported table:
+
+- `hbz_splice_sites_20bp_percent.tsv`
+
+Columns include:
+
+- `splice_plus_pct`
+- `splice_minus_pct`
+- `splice_any_pct`
+
+All values are percentages per 20 bp local-copy bin.
+
+### 11.5 Practical takeaways from AlphaGenome layer
+- Transcription-related signal is strongest for `copy1` in most tested contexts.
+- `copy2` often shows intermediate support.
+- `copy3` is typically weaker but not uniformly absent.
+- Splice-site probability is non-uniform and concentrated in specific local bins, consistent with exon/intron architecture.

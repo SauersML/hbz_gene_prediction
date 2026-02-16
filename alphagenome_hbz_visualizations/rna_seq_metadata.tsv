@@ -1,0 +1,7 @@
+name	strand	Assay title	ontology_curie	biosample_name	biosample_type	biosample_life_stage	gtex_tissue	data_source	endedness	genetically_modified	nonzero_mean
+UBERON:0002106 polyA plus RNA-seq	+	polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult		encode	paired	False	0.12643910944461823
+UBERON:0002106 total RNA-seq	+	total RNA-seq	UBERON:0002106	spleen	tissue	adult		encode	paired	False	0.08943069726228714
+UBERON:0002106 polyA plus RNA-seq	-	polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult		encode	paired	False	0.12643910944461823
+UBERON:0002106 total RNA-seq	-	total RNA-seq	UBERON:0002106	spleen	tissue	adult		encode	paired	False	0.08943069726228714
+UBERON:0002106 gtex Spleen polyA plus RNA-seq	.	polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult	Spleen	gtex	paired	False	0.05477229878306389
+UBERON:0002106 polyA plus RNA-seq	.	polyA plus RNA-seq	UBERON:0002106	spleen	tissue	embryonic		encode	single	False	0.39663490653038025

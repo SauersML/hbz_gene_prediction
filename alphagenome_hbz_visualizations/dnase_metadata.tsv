@@ -1,0 +1,2 @@
+name	strand	Assay title	ontology_curie	biosample_name	biosample_type	biosample_life_stage	data_source	endedness	genetically_modified	nonzero_mean
+UBERON:0002106 DNase-seq	.	DNase-seq	UBERON:0002106	spleen	tissue	adult	encode	paired	False	0.8771628141403198

@@ -1,0 +1,3 @@
+name	strand	Assay title	ontology_curie	biosample_name	biosample_type	data_source	nonzero_mean
+hCAGE UBERON:0000178	+	hCAGE	UBERON:0000178	blood	primary_cell	fantom	13.531624794006348
+hCAGE UBERON:0000178	-	hCAGE	UBERON:0000178	blood	primary_cell	fantom	13.531624794006348

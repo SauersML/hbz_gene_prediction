@@ -1,0 +1,3 @@
+name	strand	Assay title	ontology_curie	biosample_name	biosample_type	data_source	nonzero_mean
+hCAGE UBERON:0002106	+	hCAGE	UBERON:0002106	spleen	tissue	fantom	28.623931884765625
+hCAGE UBERON:0002106	-	hCAGE	UBERON:0002106	spleen	tissue	fantom	28.623931884765625

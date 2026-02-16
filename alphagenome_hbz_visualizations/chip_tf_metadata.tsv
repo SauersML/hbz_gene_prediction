@@ -1,0 +1,4 @@
+name	strand	Assay title	ontology_curie	biosample_name	biosample_type	biosample_life_stage	transcription_factor	data_source	endedness	genetically_modified	nonzero_mean
+UBERON:0002106 TF ChIP-seq CTCF	.	TF ChIP-seq	UBERON:0002106	spleen	tissue	adult	CTCF	encode	paired	False	0.7327548265457153
+UBERON:0002106 TF ChIP-seq POLR2A	.	TF ChIP-seq	UBERON:0002106	spleen	tissue	adult	POLR2A	encode	paired	False	0.8179008960723877
+UBERON:0002106 TF ChIP-seq POLR2AphosphoS5	.	TF ChIP-seq	UBERON:0002106	spleen	tissue	adult	POLR2AphosphoS5	encode	paired	False	0.8303864002227783

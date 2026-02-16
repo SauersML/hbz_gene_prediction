@@ -10,7 +10,6 @@ COPIES = ['copy1', 'copy2', 'copy3']
 PREDICTORS = [
     ('AUGUSTUS', '.augustus.gff3'),
     ('GlimmerHMM', '.glimmer.gff3'),
-    ('Prodigal', '.prodigal.gff'),
 ]
 
 
@@ -53,10 +52,7 @@ def parse_models(gff_path, predictor):
         if feat != 'CDS':
             continue
 
-        if predictor == 'Prodigal':
-            gid = attrs.get('ID', f'cds_{s}_{e}')
-        else:
-            gid = attrs.get('Parent', attrs.get('ID', f'cds_{s}_{e}'))
+        gid = attrs.get('Parent', attrs.get('ID', f'cds_{s}_{e}'))
 
         groups[gid].append((s, e))
         strands[gid] = strand

@@ -1,0 +1,7 @@
+name	strand	Assay title	ontology_curie	biosample_name	biosample_type	biosample_life_stage	gtex_tissue	data_source
+usage_UBERON:0002106 gtex Spleen polyA plus RNA-seq	+	polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult	Spleen	gtex
+usage_UBERON:0002106 polyA plus RNA-seq	+	polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult		encode
+usage_UBERON:0002106 total RNA-seq	+	total RNA-seq	UBERON:0002106	spleen	tissue	adult		encode
+usage_UBERON:0002106 gtex Spleen polyA plus RNA-seq	-	polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult	Spleen	gtex
+usage_UBERON:0002106 polyA plus RNA-seq	-	polyA plus RNA-seq	UBERON:0002106	spleen	tissue	adult		encode
+usage_UBERON:0002106 total RNA-seq	-	total RNA-seq	UBERON:0002106	spleen	tissue	adult		encode
