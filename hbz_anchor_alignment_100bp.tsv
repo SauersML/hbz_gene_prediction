@@ -1,0 +1,6 @@
+sample	anchor_sample	anchor_bp	best_shift_nt	matches	overlap_bp	identity
+copy1	HBZ_hg38	100	0	100	100	1.0
+copy2	HBZ_hg38	100	11	37	89	0.4157303370786517
+copy3	HBZ_hg38	100	11	37	89	0.4157303370786517
+HBZ_hg38	HBZ_hg38	100	0	100	100	1.0
+HBZP1_hg38	HBZ_hg38	100	3	37	97	0.38144329896907214

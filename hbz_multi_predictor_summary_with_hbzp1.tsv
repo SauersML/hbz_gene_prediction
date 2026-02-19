@@ -1,0 +1,11 @@
+sample	predictor	model_id	strand	start	end	cds_exons	introns	cds_nt	protein_aa_est
+HBZP1_hg38	AUGUSTUS	g1.t1	+	95	2090	3	2	390	129
+HBZ_hg38	AUGUSTUS	g1.t1	+	267	1757	3	2	429	142
+copy1	AUGUSTUS	g1.t1	+	267	1827	3	2	429	142
+copy2	AUGUSTUS	g1.t1	+	228	2073	3	2	390	129
+copy3	AUGUSTUS	g1.t1	+	228	2139	3	2	390	129
+HBZP1_hg38	GlimmerHMM	NC_000016.10:163067-165205.path1.gene1	+	95	2090	3	2	390	129
+HBZ_hg38	GlimmerHMM	NC_000016.10:152644-154503.path1.gene1	+	267	1757	3	2	429	142
+copy1	GlimmerHMM	copy1::h1tg000121l:145000-175000:1705-3635(+).path1.gene1	+	267	1827	3	2	429	142
+copy2	GlimmerHMM	copy2::h1tg000121l:145000-175000:12466-14642(+).path1.gene1	+	228	2073	3	2	390	129
+copy3	GlimmerHMM	copy3::h1tg000121l:145000-175000:22484-24666(+).path1.gene1	+	228	2139	3	2	390	129

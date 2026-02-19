@@ -1,0 +1,3 @@
+sequence	predictor	model_id	strand	start	end	cds_exons	introns	cds_nt	protein_aa_est
+HBZP1_GRCh38_NC000016_163067_165205	AUGUSTUS	g1.t1	+	95	2090	3	2	390	129
+HBZP1_GRCh38_NC000016_163067_165205	GlimmerHMM	NC_000016.10:163067-165205.path1.gene1	+	95	2090	3	2	390	129
