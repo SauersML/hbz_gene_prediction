@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import re
+import sys
 from pathlib import Path
 
 COMP = str.maketrans('ACGTNacgtn','TGCANtgcan')
@@ -35,6 +36,9 @@ def translate(s):
 print('file\tstrand\tgene_start\tgene_end\tintrons\tspliced_cds_nt\torf_status\taa_len\tprotein_prefix')
 for gff in sorted(Path('.').glob('*.augustus.gff3')):
     fasta = gff.name.replace('.augustus.gff3','.fa')
+    if not Path(fasta).exists():
+        print(f"Skipping {gff.name}: missing FASTA {fasta}", file=sys.stderr)
+        continue
     _, seq = read_fa(fasta)
     strand = '+'
     cds=[]
@@ -76,4 +80,3 @@ for gff in sorted(Path('.').glob('*.augustus.gff3')):
     status=';'.join(status)
     intr_s = 'none' if not intr else ','.join([f'{a}-{b}' for a,b in intr])
     print(f"{gff.name}\t{strand}\t{gene_start}\t{gene_end}\t{intr_s}\t{len(spliced)}\t{status}\t{len(aa)-1 if aa.endswith('*') else len(aa)}\t{aa[:25]}")
-
